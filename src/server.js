@@ -58,7 +58,7 @@ app.use((err, req, res, next) => {
 
   res.status(500).json({
     message: isProd
-      ? "Something went wrong. Please try again later."
+      ? "Something went wrong. Please try again later!."
       : err.message,
   });
 });
