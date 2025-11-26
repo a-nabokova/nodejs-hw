@@ -1,8 +1,7 @@
 import { Schema } from 'mongoose';
 import { model } from 'mongoose';
 import { TAGS } from '../constants/tags.js';
-import { User } from './user.js';
-
+ 
 
 const noteSchema = new Schema(
   {
